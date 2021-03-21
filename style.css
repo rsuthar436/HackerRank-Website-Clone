@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: #39424e;
+    overflow: auto;
+    white-space: nowrap;
+}
+.nav-container{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-links{
+    width: 100%;
+    float: left;
+}
+.nav-links li{
+    display: inline-block;
+}
+.nav-links img{
+    width: 60%;
+    height: 40%;
+    vertical-align: middle;
+}
+.nav-links .active {
+    color: white;
+    border-bottom: 5px solid #1ba94c;
+}
+.nav-links a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 18px 0px;
+    margin-right: 20px;
+    display: block;
+    color: #afc3c8;
+}
+.nav-links .hiring {
+    color: #f3f7f7;
+    font-weight: normal;
+    font-size: 13px;
+}
+.nav-links a:hover{
+    color: white;
+}
+.nav-links em{
+    margin-left: 40px;
+}
+.nav-links input{
+    background-color: #39424e;
+    border: none;
+    width: 50px;
+    color: #afc3c8;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.nav-links button{
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-links .btn-login{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #303741;
+}
+.nav-links .btn-signup{
+    border: 1px solid #1ba94c;
+    background-color: #1ba94c;
+    margin-left: 10px;
+}
+
+header{
+    box-shadow: 0px 5px 5px gray;
+}
+.title-header{
+    background-color: white;
+    height: 80px;
+    margin-left: 68px;
+    margin-top: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title-header p{
+    vertical-align: middle;
+    font-size: 13px;
+    color: #abbcbe;
+}
+
+.certified-section{
+    background-color: #f3f7f7;
+    height: auto;
+}
+.certified-section h3{
+    padding-top: 30px;
+    margin-left: 64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.certified-skill-row{
+    margin: 10px 40px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.column-1{
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    height: auto;
+    box-shadow: 0px 5px 5px gray;
+}
+.column-1 h3{
+    padding: 25px 25px 15px 25px;
+    margin-left: 5px;
+}
+.column-1 a{
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+}
+.column-1 button{
+    background-color: white;
+    border: 1px solid #1ba94c;
+    color: #1ba94c;
+    font-size: 12px;
+    padding: 6px 3px;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.column-1 img{
+    width: 40%;
+    float: right;
+    opacity: 0.1;
+    margin-top: -90px;
+    margin-right: -35px;
+    cursor: pointer;
+}
+.column-2{
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    height: auto;
+    box-shadow: 0px 5px 5px gray;
+}
+.column-2 h3 {
+    padding: 25px 25px 15px 25px;
+    margin-left: 5px;
+}
+.column-2 a {
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+}
+.column-2 button {
+    background-color: white;
+    border: 1px solid #1ba94c;
+    color: #1ba94c;
+    font-size: 12px;
+    padding: 6px 3px;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.column-2 img {
+    width: 40%;
+    float: right;
+    opacity: 0.1;
+    margin-top: -90px;
+    margin-right: -35px;
+    cursor: pointer;
+}
+.column-3{
+    overflow: hidden;
+    width: 100%;
+    background-color: #0e141e;
+    height: auto;
+    box-shadow: 0px 5px 5px gray;
+}
+.column-3 h3 {
+    padding: 35px 25px 10px 25px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.column-3 a {
+    text-decoration: none;
+    color: white;
+}
+.column-3 p{
+    padding: 0px 25px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.column-3 button{
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: none;
+    color: #39424e;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.your-skills {
+    background-color: #f3f7f7;
+    margin-top: -10px;
+    height: auto;
+}
+.your-skills h3 {
+    padding-top: 30px;
+    margin-left: 64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.skills-row {
+    margin: 10px 40px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 60px;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.skill-column {
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    height: auto;
+    box-shadow: 0px 5px 5px gray;
+}
+.skill-column a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.skill-column p{
+    font-size: 12px;
+    color: #738f93;
+    padding: 20px 20px 5px 25px;
+    letter-spacing: 0.5px;
+}
+.skill-column h3{
+    padding: 2px 20px 0px 25px;
+    margin-left: 0;
+    color: #39424e;
+    font-size: 26px;
+}
+.skill-column button{
+    margin: 15px 25px;
+    font-size: 18px;
+    width: 260px;
+    padding: 14px 0px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+        font-weight: 300;
+
+}
+.skill-column .btn-view{
+    background-color: #1ba94c;
+    color: white;
+    border: none;
+    box-shadow: 0px 5px 2px #1ba94c;
+}
+.skill-column .btn-explore{
+    background-color: white;
+    color: #1ba94c;
+    border: 1px solid #1ba94c;
+}
+
+.skill-practice{
+    background-color: #f3f7f7;
+    margin-top: -10px;
+    height: auto;
+}
+.skill-practice h3 {
+    padding-top: 30px;
+    margin-left: 64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.practice-row{
+    margin: 10px 40px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.practice-column{
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background-color: white;
+}
+.practice-column a{
+    text-decoration: none;
+    padding: 15px;
+    display: inline-flex;
+    color: #39424e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.practice-column h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.practice-column img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tutorial-section {
+    background-color: #f3f7f7;
+    margin-top: -10px;
+    height: auto;
+    padding-bottom: 50px;
+}
+.tutorial-section h3 {
+    padding-top: 30px;
+    margin-left: 64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tutorial-row {
+    margin: 10px 40px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 60px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.tutorial-column {
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    height: auto;
+    box-shadow: 0px 5px 5px gray;
+}
+.tutorial-column a {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tutorial-column p {
+    font-size: 12px;
+    color: #738f93;
+    padding: 20px 20px 5px 30px;
+    letter-spacing: 0.5px;
+}
+.tutorial-column h3 {
+    padding: 2px 20px 0px 25px;
+    margin-left: 0;
+    color: #39424e;
+    font-size: 18px;
+}
+.tutorial-column h4 {
+    margin: 10px 25px;
+    font-size: 14px;
+    width: 260px;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #1ba94c;
+}
+.tutorial-column h4:hover {
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+}
+footer ul{
+    display: inline-flex;
+}
+footer li{
+    display: block;
+    padding: 10px 4px ;
+}
+footer li a{
+    text-decoration: none;
+    color: #097bbf;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
